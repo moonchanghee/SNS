@@ -1,4 +1,4 @@
-지마켓 사이트에서 best seller 상품의 정보를 수집하는 크롤러를 
+지마켓 사이트에서 best seller 상품의 정보를 수집하는 크롤러를 작성하세요
     
     from bs4 import BeautifulSoup
     from selenium import webdriver
