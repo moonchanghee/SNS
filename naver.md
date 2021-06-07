@@ -1,3 +1,5 @@
+네이버에서 제공하는 영화 평점 사이트에서 특정 영화를 검색한 한 후 해당 영화의 다양한 정보를 수집하는 크롤러를 만드세요.
+  
     from bs4 import BeautifulSoup
     from selenium import webdriver
     import time
