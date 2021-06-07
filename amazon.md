@@ -143,7 +143,7 @@
     s_time = time.time()
     path = "C:/bigdata_test/chromedriver.exe"
     driver = webdriver.Chrome(path)
-    driver.get(qurey_url)
+    driver.get(query_url)
     time.sleep(5)
     driver.find_element_by_xpath("//*[@id=\"zg_browseRoot\"]/ul/li["+sec+"]/a").click()
     time.sleep(1)
